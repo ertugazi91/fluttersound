@@ -39,7 +39,7 @@ class _RecordButtonState extends State<RecordButton> {
 
     if (status != PermissionStatus.granted) {
       throw 'Mic permission not granted';
-      //TODO Buraya izinlerle alakalı popup gelecek
+      //TODO Buraya izinlerle alakalı popup gelecekkk
     }
 
     await recorder.openRecorder();
